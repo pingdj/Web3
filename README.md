@@ -12,30 +12,30 @@ Web3 双链智能监控系统 · 技术深度报告
 系统采用 主进程 + 独立子进程 的微内核架构，实现 UI 渲染与监控逻辑的物理隔离，确保任一子进程崩溃不影响主窗口及其他链的监控。
 
 主进程 (main.py)                        
-- PyWebView 窗口 (HTML/JS 前端)                             
-- 系统托盘图标 + 悬浮窗管理                                   
-- 子进程生命周期管理 (启动/停止/重启)                         
-- 配置文件读写 (JSON) 与热加载                               
-- 全局异常捕获与日志轮转                                     
+PyWebView 窗口 (HTML/JS 前端)                             
+系统托盘图标 + 悬浮窗管理                                   
+子进程生命周期管理 (启动/停止/重启)                         
+配置文件读写 (JSON) 与热加载                               
+全局异常捕获与日志轮转                                     
                  
 子进程: Evm.py                   
-- EVM 链 WSS 订阅                 
-- RPC 余额轮询                    
-- NFTScan 集成                      
-- SQLite 持久化                   
+EVM 链 WSS 订阅                 
+RPC 余额轮询                    
+NFTScan 集成                      
+SQLite 持久化                   
 
 子进程: Sol.py    
-- Solana WSS 订阅
-- Helius API 解析 
-- DAS 元数据查询
-- 详细日志 JSON
+Solana WSS 订阅
+Helius API 解析 
+DAS 元数据查询
+详细日志 JSON
 
 外部服务集成层       
-- AI Providers      
-- Telegram/Discord  
-- CryptoRank API    
-- GeckoTerminal API 
-- RootData 数据集成  
+AI Providers      
+Telegram/Discord  
+CryptoRank API    
+GeckoTerminal API 
+RootData 数据集成  
               
 设计要点：
 
@@ -108,7 +108,9 @@ Solana 代币价格缺失 → 优先 Helius price_info，回退 DexScreener。
 
 
 邮箱：pingdj@vip.qq.com
+
 网站：https://www.ming.store/
+
 软件技术深度报告：https://www.ming.store/tech-report.html
 
 版本 V10 · 2026年3月 · 潇楠出品# Web3
@@ -118,3 +120,9 @@ Solana 代币价格缺失 → 优先 Helius price_info，回退 DexScreener。
 <img width="1922" height="950" alt="image" src="https://github.com/user-attachments/assets/c6a1e4c9-a02f-4d0e-98fc-e6aa6135caec" />
 <img width="1922" height="942" alt="image" src="https://github.com/user-attachments/assets/1a4fc9e5-7726-4bd9-ade8-2faf40bbfd46" />
 <img width="1922" height="951" alt="image" src="https://github.com/user-attachments/assets/cdaa2b8f-a8e4-40bf-9805-4e0f6387646b" />
+
+
+
+
+
+
