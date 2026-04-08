@@ -154,7 +154,7 @@ Solana 代币价格缺失 → 优先 Helius price_info，回退 DexScreener。
 版本 V10 · 2026年3月 · 潇楠出品# Web3
 
 <video width="100%" controls preload="metadata">
-  <source src="https://www.ming.store/videos/web3.mp4" type="video/mp4">
+  <source src="http://ming.store/videos/web3.mp4" type="video/mp4">
   您的浏览器不支持 video 标签。
 </video>
 <img width="1922" height="941" alt="image" src="https://github.com/user-attachments/assets/7fb9b032-5f59-4da3-9df7-e60e32bf8420" />
