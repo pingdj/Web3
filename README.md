@@ -21,6 +21,7 @@
 本文从**架构设计、核心模块、关键技术实现、性能优化、安全性**等方面进行全面阐述，展示本系统的技术深度与工程成熟度。
 
 ---
+<img width="1922" height="945" alt="image" src="https://github.com/user-attachments/assets/74f7600c-4ea8-45e0-a376-693e814fd31c" />
 
 ## 1. 系统总体架构
 
@@ -58,6 +59,7 @@ Helius API 解析
 DAS 元数据查询
 
 详细日志 JSON
+<img width="1922" height="938" alt="image" src="https://github.com/user-attachments/assets/c422abac-d056-45ab-a6f0-f10ebbba72c7" />
 
 
 外部服务集成层     
@@ -142,6 +144,7 @@ GoPlus 安全检测
 - 每条链可配置**多个 WSS 节点**，当前节点异常时自动切换至下一可用节点。
 - 采用**指数退避重连策略**（5s → 60s），避免频繁重连导致 IP 被限制。
 - 通过 `websockets-proxy` 库支持 **HTTP 代理**，解决国内网络访问境外节点的连通性问题。
+<img width="1922" height="944" alt="image" src="https://github.com/user-attachments/assets/465f235e-28ba-45f1-baed-17303e4f19ab" />
 
 ### 3.2 内存与性能优化
 - **`LimitedSizeDict`**：基于 `OrderedDict` 实现的有限容量缓存，自动淘汰最早数据（Token 信息 1000 条，价格 500 条，NFT 元数据 200 条）。
@@ -214,6 +217,7 @@ GoPlus 安全检测
 V10 版本新增的 **内建 SWAP 引擎与强制安全检测体系**，将“发现代币”到“安全交易”的全流程整合于一体，为用户提供了从数据监控、项目评估、多聚合器比价到风险拦截的一站式解决方案。这不仅是对传统 DEX 交易体验的重新定义，更标志着桌面级 Web3 工具开始迈向 **智能化、全闭环** 的新阶段。
 
 系统的架构设计充分考虑了**稳定性、可扩展性与易用性**，是个人开发者独立完成的高质量商业级作品。
+<img width="1922" height="933" alt="image" src="https://github.com/user-attachments/assets/f9fc327f-f2a8-4f83-a717-ef9e8319f506" />
 
 ---
 
