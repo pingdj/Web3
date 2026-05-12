@@ -8,7 +8,8 @@
 **适用平台**：Windows 10 / 11（独立桌面应用）
 
 ---
-<img width="1922" height="959" alt="image" src="https://github.com/user-attachments/assets/d94f3921-14ba-46fb-ac92-ff5e09a798bc" />
+<img width="1922" height="947" alt="image" src="https://github.com/user-attachments/assets/dbf092f3-643f-48cd-8aec-271dd5b0859c" />
+
 
 ## 📄 摘要
 
