@@ -222,7 +222,7 @@ GoPlus 安全检测
 V10 版本新增的 **内建 SWAP 引擎与强制安全检测体系**，将“发现代币”到“安全交易”的全流程整合于一体，为用户提供了从数据监控、项目评估、多聚合器比价到风险拦截的一站式解决方案。这不仅是对传统 DEX 交易体验的重新定义，更标志着桌面级 Web3 工具开始迈向 **智能化、全闭环** 的新阶段。
 
 系统的架构设计充分考虑了**稳定性、可扩展性与易用性**，是个人开发者独立完成的高质量商业级作品。
-<img width="1922" height="933" alt="image" src="https://github.com/user-attachments/assets/f9fc327f-f2a8-4f83-a717-ef9e8319f506" />
+
 
 ---
 
@@ -236,9 +236,6 @@ V10 版本新增的 **内建 SWAP 引擎与强制安全检测体系**，将“�
 
 - 📧 邮箱：[pingdj@vip.qq.com](mailto:pingdj@vip.qq.com)
 - 🌐 官方网站：[https://www.ming.store/](https://www.ming.store/)
-- 📖 软件技术深度报告：[https://www.ming.store/tech-report.html](https://www.ming.store/tech-report.html)
 
----
-
-*版本 V10 · 2026年4月 · 潇 楠 Web3哨兵*
+*版本 V10 · 2026年6月 · 潇 楠 Web3哨兵*
 
