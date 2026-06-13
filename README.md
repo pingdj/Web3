@@ -8,7 +8,8 @@
 **适用平台**：Windows 10 / 11（独立桌面应用）
 
 ---
-<img width="1922" height="947" alt="image" src="https://github.com/user-attachments/assets/dbf092f3-643f-48cd-8aec-271dd5b0859c" />
+<img width="1922" height="945" alt="1" src="https://github.com/user-attachments/assets/a715aa32-f269-4ad8-a0ff-1a05cc6b9226" />
+
 
 
 ## 📄 摘要
@@ -22,7 +23,8 @@
 本文从**架构设计、核心模块、关键技术实现、性能优化、安全性**等方面进行全面阐述，展示本系统的技术深度与工程成熟度。
 
 ---
-<img width="1922" height="945" alt="image" src="https://github.com/user-attachments/assets/74f7600c-4ea8-45e0-a376-693e814fd31c" />
+<img width="1922" height="957" alt="723fcd5a2c3f32744c59b461fa414b3b" src="https://github.com/user-attachments/assets/f8ceb776-f40f-4635-818a-ec10078b7cc8" />
+
 
 ## 1. 系统总体架构
 
@@ -60,7 +62,8 @@ Helius API 解析
 DAS 元数据查询
 
 详细日志 JSON
-<img width="1922" height="938" alt="image" src="https://github.com/user-attachments/assets/c422abac-d056-45ab-a6f0-f10ebbba72c7" />
+<img width="1301" height="798" alt="37ea722151c151e109910534fa431709" src="https://github.com/user-attachments/assets/ce2e74b8-4d7b-4855-9f4a-9d669ab733db" />
+
 
 
 外部服务集成层     
@@ -145,7 +148,8 @@ GoPlus 安全检测
 - 每条链可配置**多个 WSS 节点**，当前节点异常时自动切换至下一可用节点。
 - 采用**指数退避重连策略**（5s → 60s），避免频繁重连导致 IP 被限制。
 - 通过 `websockets-proxy` 库支持 **HTTP 代理**，解决国内网络访问境外节点的连通性问题。
-<img width="1922" height="944" alt="image" src="https://github.com/user-attachments/assets/465f235e-28ba-45f1-baed-17303e4f19ab" />
+<img width="1260" height="524" alt="d960c8316d9078d652626f833dc753d8" src="https://github.com/user-attachments/assets/11562cb5-4089-440d-8ea3-b9f2e5201802" />
+
 
 ### 3.2 内存与性能优化
 - **`LimitedSizeDict`**：基于 `OrderedDict` 实现的有限容量缓存，自动淘汰最早数据（Token 信息 1000 条，价格 500 条，NFT 元数据 200 条）。
