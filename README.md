@@ -236,6 +236,7 @@ V10 版本新增的 **内建 SWAP 引擎与强制安全检测体系**，将“�
 
 - 📧 邮箱：[xiaonan@ming.store](mailto:xiaonan@ming.store)
 - 🌐 官方网站：[https://www.ming.store/](https://www.ming.store/)
+- 🌐 API调用：[https://www.ming.store/key/docs.php](https://www.ming.store/key/docs.php)
 - 🌐 浏览器插件：[https://www.ming.store/plugin-install.php](https://www.ming.store/plugin-install.php)
 - 微信小程序：
 - <img width="258" height="258" alt="image" src="https://github.com/user-attachments/assets/aeb56aef-24da-4810-9bb1-26dff3f42599" />
